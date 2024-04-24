@@ -1,0 +1,30 @@
+Package: rdsconfig
+Title: Config Database Interface
+Version: 0.0.2
+Authors@R: 
+  person(
+    given = "Bobby", 
+    family = "Fatemi", 
+    role = c("aut", "cre"), 
+    email = "bfatemi07@gmail.com"
+  )
+Description: Functions that query the config database to 
+  retrieve data needed to administer and deploy hosted 
+  applications.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports: 
+  data.table,
+  stringr,
+  DBI,
+  rpgconn
+Remotes:
+  r-data-science/rpgconn
+Depends: 
+  R (>= 4.0)
+Suggests: 
+  testthat,
+  covr
+Config/testthat/edition: 3

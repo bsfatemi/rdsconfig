@@ -1,0 +1,10 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^data-raw$
+^_old$
+^_dev$
+^_draft$
+^\.travis\.yml$
+^codecov\.yml$
+^\.github$
+^inst/docs/_draft$
